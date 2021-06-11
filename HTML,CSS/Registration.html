@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reg</title>
+    <link rel="stylesheet" href="rstyle.css"/>
+    <style>
+        body {background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 29%, rgba(148,187,233,1) 100%);}
+    </style>
+</head>
+<body >
+    <div class="reg-form">
+        <form class="form" action="Login.html" method="POST">
+                <div class="container">
+                    <h1>Register Here<b></b></h1> 
+                    <div>
+                        <label for="Name"><b>Name : </b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+                    </div>
+                    <div>
+                        <label for="Address"><b>Address : </b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+                    </div>
+                    <div>
+                        <label for="Name"><b>Email : </b></label>
+                        <input type="email" placeholder="Enter email" name="uname" required><br><br>
+                    </div>
+                    <div>
+                        <label for="Number"><b>Mobile No : </b></label>
+                        <input type="text" placeholder="Enter mobile number" name="uname" required><br><br>
+                    </div>
+                    <div class="gender">
+                        <b>Gender</b>:<input type="radio" name="gender">Male <input type="radio" name="gender">Female <input type="radio" name="gender">Transgender <br><br>
+                    </div>
+                    <div class="lang">
+                        <b>Languages Known :</b> <input type="checkbox" name="language">English <input type="checkbox" name="language">Malayalam <br><input type="checkbox" name="language">Hindi <input type="checkbox" name="language">Tamil</b><br><br>
+                    </div>
+                    <div class="resume">
+                        <label for="Resume"><b>Upload Resume : </b></label>
+                        <input type="file" value=""required><br>
+                    </div>
+                    <div class="pswd">
+                        <b>Enter password : </b><input type="password" value=""required></label><br><br>
+                        
+                    </div>
+                    <div class="pswd">
+                     <b>Confirm password : </b> <input type="password" value=""required></label><br><br>
+                        
+                    </div>
+                    <div>
+                        <a href="Login.html">
+                        <button type="submit" name="submit">Submit</button></a>
+                    </div>
+                </div>
+        </form>
+    </div>
+</body>
+</html>
